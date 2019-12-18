@@ -1,0 +1,92 @@
+html {
+	scroll-behavior: smooth;
+
+}
+
+.fa-phone-square-alt {
+	color: blue;
+
+}
+
+hr {
+	width: 250px;
+	border-top: 3px solid rgb(131, 123, 123);
+}
+
+
+.cat img {
+	width: 200px;
+	margin: auto;
+	animation-name: rotate;
+	animation-duration: 10s;
+	animation-delay: 2s;
+}
+
+@keyframe rotate {
+	0% {
+		transform: rotate(0turn);
+	}
+
+	100% {
+		transform: rotate(6turn);
+	}
+}
+
+@-webkit-keyframes rotate {
+	0% {
+		transform: rotate(0turn);
+	}
+
+	100% {
+		transform: rotate(6turn);
+	}
+}
+
+#btnScroll {
+
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: red;
+	box-shadow: white;
+	color: white;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	z-index: 99;
+
+	padding: 10px;
+}
+
+#btnScroll:hover {
+	background-color: blue;
+}
+
+.float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	left: 20px;
+	bottom: 10px;
+
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+}
+
+.my-float {
+	margin-top: 16px;
+}
+
+.jumbotron {
+	background-image: url(assets/img/ime.jpg);
+	background-size: cover;
+
+}
